@@ -10,3 +10,26 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+
+
+
+
+
+function setVar() { 
+    const store = document.getElementById("store").value;
+    const product = document.getElementById("product").value;
+    const quantity = document.getElementById("quantity").value;
+    let display = document.querySelector("p");
+   display.textContent = `I shopped at ${store} for ${quantity} ${product}`
+}
+
+function focus() {
+    let form = document.querySelector("form")
+    form.reset();
+    if ( form ==""){
+      document.querySelector('p')  = "Please fill Form"
+    } else (form.reset);
+    
+}
+
